@@ -14,9 +14,21 @@
     z-index: -1;
     
 }
-#hero-laptop{
-    z-index: 2;
+
+.iframe-wrapper{
+    position: relative;
 }
+#hero-laptop{
+    z-index: 2;  
+}
+#video-iframe{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 3;
+}
+
+
 
 .wrapper{
     display: flex;

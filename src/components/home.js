@@ -39,7 +39,20 @@ console.log(data.sectionsJson.img.absolutePath)
 
           </Col>
           <Col sm={8}>
-          <GatsbyImage image={getImage(data.sectionsJson.img)} alt="Hero Image"></GatsbyImage>
+         <div className="iframe-wrapper">
+         <GatsbyImage id="hero-laptop" image={getImage(data.sectionsJson.img)} alt="Hero Image"></GatsbyImage>
+          <iframe 
+                id="video-iframe" 
+                src="https://www.youtube.com/embed/9mdQPy26hGM" 
+                title="Youtube Qimia" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen 
+              />
+         </div>
+         
+         
+          
           </Col>
         </Row>
       </Container>
