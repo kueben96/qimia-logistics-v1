@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    color: var(--white);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom:5%;
+    
+}
+.footer-logo{
+    float: left;;
+}
+.footer-copy{
+    color: white;
+    float: right;
+    text-align:end;
+    
+}
