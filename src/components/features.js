@@ -15,7 +15,7 @@ const Features = () => {
     return (
 
         <Container fluid={true} id="features">
- <section >
+ <section id="features" >
            <Container>
            <div className="heading">
                <h1 className="text-grey"> Features</h1>
@@ -26,38 +26,38 @@ const Features = () => {
 
 
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={opti} alt="" />
                             <span>Optimization of the Vehicle Routing Domain</span>
                         </div>
                     </Col>
 
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={tasks} alt="" />
                             <span>Up to 30.000 tasks within minutes</span>
                         </div>
                     </Col>
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={address} alt="" />
                             <span>Instant Address Changes </span>
                         </div>
                     </Col>
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={item1} alt="" />
                             <span>Live Driver Tracking</span>
                         </div>
                     </Col>
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={item2} alt="" />
                             <span>Handling Capacities, time windows, priorities</span>
                         </div>
                     </Col>
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={item3} alt="" />
                             <span>Pickup and delivery Problems <br />(e.g. Ride sharing)</span>
                         </div>

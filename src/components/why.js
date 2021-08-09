@@ -12,7 +12,7 @@ import fast from '../images/Fast and Scalable.png'
 const Why = () => {
     return (
 
-        <section>
+        <section id="why">
             <Container>
                 <div id="why-header">
                     <h1 className="text-orange">Why</h1>
@@ -24,7 +24,7 @@ const Why = () => {
 
 
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={fast} alt="Fast and Scalable" />
                             <span className="text-orange">Fast and Scalable</span>
                         </div>
@@ -32,14 +32,14 @@ const Why = () => {
                     </Col>
 
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={easy} alt="Easy to Integrate" />
                             <span className="text-orange">Easy to Integrate</span>
                         </div>
 
                     </Col>
                     <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
-                        <div class="wrap-thumb">
+                        <div className="wrap-thumb">
                             <img src={practical} alt="Cost Efficient" />
                             <span className="text-orange">Cost Efficient</span>
                         </div>

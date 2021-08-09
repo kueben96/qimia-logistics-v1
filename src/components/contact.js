@@ -10,7 +10,7 @@ import { Button } from "reakit/Button";
 const Contact = () => {
     return (
         <Container fluid={true} id="contact">
-            <section >
+            <section id="contact" >
                 <Container>
                     <div className="heading">
                         <h1 className="text-orange">Contact</h1>
@@ -30,7 +30,7 @@ const Contact = () => {
                         <Col sm={6}>
                             <div className="contact-form">
                                 <h2 className="text-orange">CONTACT US</h2>
-                                <form class="form-inputs" method="post" action="https://getform.io/{your-unique-getform-endpoint}">
+                                <form className="form-inputs" method="post" action="https://getform.io/{your-unique-getform-endpoint}">
                                         <input placeholder="Fullname" className="form-input" type="email" name="email" />
                                         <input placeholder="Email" className="form-input" type="text" name="name" />      
                                         <textarea placeholder="Describe your project" className="form-input"  type="text" name="message" />

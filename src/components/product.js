@@ -11,7 +11,7 @@ const Products = () => {
     return (
 
         <Container fluid={true} id="products">
-            <section >
+            <section id="products" >
                 <Container>
                     <div className="heading">
                         <h1 className="text-orange">Product</h1>

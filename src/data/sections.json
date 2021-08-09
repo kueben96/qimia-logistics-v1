@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Home",
+        "headline": "Powerful Logistics Platform!",
+        "description": "QLogistics is the next generations logistics platform",
+        "img": "../images/Promo Mockup.png"
+    },
+    {
+        "name": "Why",
+        "headline": "Why QLogistics",
+        "description": "Deshalb",
+        "img": "../images/Promo Mockup.png"
+    }
+]
+ 

@@ -2,7 +2,8 @@
 .nav-components{
     font-family: 'Kanit', sans-serif;
     font-weight: bold;
-  
 }
-
-
+.nav-fixed{
+    background-color: var(--grey);
+    padding-top: 20px;
+}
