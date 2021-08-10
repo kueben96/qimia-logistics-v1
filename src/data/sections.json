@@ -58,7 +58,11 @@
     {
         "name": "Product",
         "headline": "Product",
-        "description": "Easy to use dashboard supporting every step of delivery process"
+        "description": "Easy to use dashboard supporting every step of delivery process",
+        "img": "../images/Group 2.png",
+        "points": [
+            "Operator, Driver and Customer Interfaces", "Realtime tracking of delivery cars", "Developed for iOS and Android"
+        ]
     },
     {
         "name": "Contact"

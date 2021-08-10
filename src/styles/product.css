@@ -14,6 +14,9 @@ li {
     font-weight: bolder;
     padding: 20px;
     font-size:larger;
+    list-style: none;
+    background: url(../images/Oval\ Copy\ 3.png)  left center no-repeat;
+    padding-left: 49px; 
 }
 
 .bullet {
@@ -21,6 +24,6 @@ li {
 }
 
 ul {
-  width: 85%;
+  width: 90%;
   
 }

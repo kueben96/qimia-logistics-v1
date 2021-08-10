@@ -24,7 +24,7 @@ query sectionNames{
 return(
     <Navbar collapseOnSelect className="nav-fixed" expand="lg" fixed="top" >
     <Container>
-    <Navbar.Brand className="ml-auto" href="#home">
+    <Navbar.Brand className="ml-auto" href="#">
       <img
         src={logo}
         className="d-inline-block align-top"
