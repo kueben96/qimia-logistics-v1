@@ -1,5 +1,5 @@
 import * as React from "react"
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { Row, Col, Container } from 'react-bootstrap'
 import path from '../images/Path.png'
 import '../styles/home.css'

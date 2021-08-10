@@ -1,7 +1,6 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import NavbarComp from './navbar'
-import { Container } from "react-bootstrap"
 import '../styles/header.css'
 
 

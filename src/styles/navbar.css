@@ -12,13 +12,14 @@
     margin-left: 30px;
     font-size: large;
     color: var(--white)!important;
+    box-sizing: border-box;
+    border-radius: 20px;
 }
 
  .nav-element.active, .nav-element:hover{
     background-color: var(--orange);
     color: var(--dark-grey)!important;
-    box-sizing: border-box;
-    border-radius: 20px;
+    
   }
 
   .navbar-light .navbar-toggler{

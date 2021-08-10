@@ -1,7 +1,6 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Row, Col, Image, Container } from 'react-bootstrap'
-import path from '../images/Path.png'
 import '../styles/features.css'
 import item1 from '../images/Group 11.png'
 import item2 from '../images/Group 7.png'
