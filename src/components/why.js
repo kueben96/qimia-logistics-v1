@@ -1,15 +1,9 @@
 import * as React from "react"
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image"
-import { Row, Col, Image, Container } from 'react-bootstrap'
-import path from '../images/Path.png'
+import {  GatsbyImage, getImage } from "gatsby-plugin-image"
+import { Row, Col, Container } from 'react-bootstrap'
 import '../styles/home.css'
 import logo from '../images/Logo.png'
-import easy from '../images/Easy to Integrate.png'
-import practical from '../images/Practical Features.png'
-import fast from '../images/Fast and Scalable.png'
 import { useStaticQuery, graphql } from "gatsby"
-
-
 const Why = () => {
 
     const data = useStaticQuery(graphql`
@@ -40,7 +34,6 @@ query whySection{
   const reasons = whyData.reasons
   console.log(reasons)
     return (
-
         <section id="why">
             <Container>
                 <div id="why-header">

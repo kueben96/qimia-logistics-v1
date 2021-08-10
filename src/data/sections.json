@@ -27,7 +27,33 @@
     {
         "name": "Features",
         "headline": "Features",
-        "description": "There are lots of reasons to have QLogistics!"
+        "description": "There are lots of reasons to have QLogistics!",
+        "features": [
+            {
+                "feature": "Optimization of the Vehicle Routing Domain",
+                "img": "../images/Group Copy.png"
+            },
+            {
+                "feature": "Up to 30.000 tasks within minutes",
+                "img": "../images/optimization.png"
+            },
+            {
+                "feature": "Instant Address Changes",
+                "img": "../images/Group.png"
+            },
+            {
+                "feature": "Live Driver Tracking",
+                "img": "../images/Group 11.png"
+            },
+            {
+                "feature": "Handling Capacities, time windows, priorities",
+                "img": "../images/Group 7.png"
+            },
+            {
+                "feature": "Pickup and delivery Problems (e.g. Ride sharing)",
+                "img": "../images/Group 21.png"
+            }
+        ]
     },
     {
         "name": "Product",
