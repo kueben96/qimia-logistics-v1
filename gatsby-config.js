@@ -4,6 +4,7 @@ module.exports = {
     description: `Website build with Gatsby for Qimia Logistics`,
     author: `@kueben96`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    logo: `src/images/Logo.png`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
