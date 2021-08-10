@@ -3,8 +3,31 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav,  Navbar, Container} from 'react-bootstrap'
 import logo from '../images/Logo.png'
 import '../styles/navbar.css'
+import { useStaticQuery, graphql } from "gatsby"
 
 const NavbarComp = () =>{
+
+  const data = useStaticQuery(graphql`
+query sectionNames{
+  allSectionsJson {
+    nodes {
+      name
+    }
+  }
+}
+  `)
+  
+  const names_obj = data.allSectionsJson.nodes
+  console.log(names_obj)
+  let names = names_obj.map(obj =>{ return (obj['name'])})
+  console.log(names)
+
+  const navItems = names.map((n) => 
+  <Nav.Link className="nav-element" href="#home">{n}</Nav.Link>
+  );
+
+  
+  
 return(
     <Navbar collapseOnSelect className="nav-fixed" expand="lg" fixed="top" >
     <Container>
