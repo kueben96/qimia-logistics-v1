@@ -5,9 +5,7 @@
     --white: #ffffff;
     --grey: #1c2430;
     --dark-grey: #121821;
-    
   }
-  
 body {
     background-color:var(--grey)!important;
     font-family: 'Kanit', sans-serif;

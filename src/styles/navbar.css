@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 .nav-components{
     font-family: 'Kanit', sans-serif;
-    font-weight: bold;
 }
+
 .nav-fixed{
     background-color: var(--grey);
     padding-top: 20px;
 }
+
+.nav-element{
+    margin-left: 30px;
+    font-size: large;
+    color: var(--white)!important;
+}
+
+ .nav-element.active, .nav-element:hover{
+    background-color: var(--orange);
+    color: var(--dark-grey)!important;
+    box-sizing: border-box;
+    border-radius: 20px;
+  }
+
+  .navbar-light .navbar-toggler{
+      color: var(--orange)!important;
+      
+  }
+ 
+  

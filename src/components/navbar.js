@@ -6,7 +6,7 @@ import '../styles/navbar.css'
 
 const NavbarComp = () =>{
 return(
-    <Navbar collapseOnSelect className="nav-fixed" expand="lg" variant="dark" fixed="top" >
+    <Navbar collapseOnSelect className="nav-fixed" expand="lg" fixed="top" >
     <Container>
     <Navbar.Brand className="ml-auto" href="#home">
       <img
@@ -16,13 +16,13 @@ return(
       />
     </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse className="justify-content-end " id="responsive-navbar-nav">
+  <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
     <Nav className="mr-auto nav-components">
       <Nav.Link className="nav-element" href="#home">Home</Nav.Link>
-      <Nav.Link href="#why">Why QLogistics?</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#products">Product</Nav.Link>
-      <Nav.Link href="#contact">Contact</Nav.Link>
+      <Nav.Link className="nav-element"  href="#why">Why QLogistics?</Nav.Link>
+      <Nav.Link  className="nav-element" href="#features">Features</Nav.Link>
+      <Nav.Link className="nav-element"  href="#products">Product</Nav.Link>
+      <Nav.Link  className="nav-element" href="#contact">Contact</Nav.Link>
      
      
     </Nav>
