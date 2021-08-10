@@ -1,4 +1,5 @@
 import './src/styles/layout.css'
+
 /**
  * Implement Gatsby's Browser APIs in this file.
  *

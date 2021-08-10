@@ -15,19 +15,12 @@ query sectionNames{
     }
   }
 }
-  `)
-  
-  const names_obj = data.allSectionsJson.nodes
+  `) 
+  const names_obj = data.allSectionsJson.nodes;
   console.log(names_obj)
   let names = names_obj.map(obj =>{ return (obj['name'])})
   console.log(names)
-
-  const navItems = names.map((n) => 
-  <Nav.Link className="nav-element" href="#home">{n}</Nav.Link>
-  );
-
-  
-  
+ 
 return(
     <Navbar collapseOnSelect className="nav-fixed" expand="lg" fixed="top" >
     <Container>
@@ -40,14 +33,8 @@ return(
     </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
-    <Nav className="mr-auto nav-components">
-      <Nav.Link className="nav-element" href="#home">Home</Nav.Link>
-      <Nav.Link className="nav-element"  href="#why">Why QLogistics?</Nav.Link>
-      <Nav.Link  className="nav-element" href="#features">Features</Nav.Link>
-      <Nav.Link className="nav-element"  href="#products">Product</Nav.Link>
-      <Nav.Link  className="nav-element" href="#contact">Contact</Nav.Link>
-     
-     
+    <Nav className="mr-auto nav-components">    
+    {names.map(item => (<Nav.Link className="nav-element" href="#home">{item}</Nav.Link>))}
     </Nav>
   </Navbar.Collapse>
     </Container>
@@ -55,5 +42,4 @@ return(
 </Navbar>
 )
 }
-
 export default NavbarComp

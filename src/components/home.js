@@ -45,14 +45,11 @@ console.log(data.sectionsJson.img.absolutePath)
                 id="video-iframe" 
                 src="https://www.youtube.com/embed/9mdQPy26hGM" 
                 title="Youtube Qimia" 
-                frameborder="0" 
+                frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen 
+                allowFullScreen 
               />
          </div>
-         
-         
-          
           </Col>
         </Row>
       </Container>

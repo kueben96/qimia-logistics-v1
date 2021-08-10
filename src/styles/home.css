@@ -1,14 +1,19 @@
 #home{
     position: relative;
-  
 }
+@media screen and (min-width: 769px) {
+    #home{
+        position: relative;
+        margin-bottom: 20vh;
+    }
+  }
 
 .hide {
     overflow: hidden;
 }
 #path{
     position: absolute;
-    top:25%;
+    top:5%;
     left: -10%;
     width: 120%;
     z-index: -1;

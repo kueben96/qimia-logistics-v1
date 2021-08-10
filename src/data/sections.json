@@ -7,9 +7,34 @@
     },
     {
         "name": "Why",
-        "headline": "Why QLogistics",
-        "description": "Deshalb",
-        "img": "../images/Promo Mockup.png"
+        "headline": "Why",
+        "description": null,
+        "reasons": [
+            {
+                "reason": "Fast and Scalable",
+                "img": "../images/Fast and Scalable.png"
+            },
+            {
+                "reason": "Easy to Integrate",
+                "img": "../images/Easy to Integrate.png"
+            },
+            {
+                "reason": "Cost Efficient",
+                "img": "../images/Practical Features.png"
+            }
+        ]
+    },
+    {
+        "name": "Features",
+        "headline": "Features",
+        "description": "There are lots of reasons to have QLogistics!"
+    },
+    {
+        "name": "Product",
+        "headline": "Product",
+        "description": "Easy to use dashboard supporting every step of delivery process"
+    },
+    {
+        "name": "Contact"
     }
 ]
- 
