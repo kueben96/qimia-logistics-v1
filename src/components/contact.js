@@ -33,8 +33,8 @@ const Contact = () => {
                                 <form className="form-inputs" method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
                                     <input type="hidden" name="bot-field" />
                                     <input type="hidden" name="form-name" value="contact" />
-                                    <input placeholder="Fullname" className="form-input" type="email" name="email" />
-                                    <input placeholder="Email" className="form-input" type="text" name="name" />
+                                    <input placeholder="Fullname" className="form-input" type="text" name="email" />
+                                    <input placeholder="Email" className="form-input" type="email" name="name" />
                                     <textarea placeholder="Describe your project" className="form-input" type="text" name="message" />
                                     <Button type="submit" className="btn-yellow">Send</Button>
                                 </form>
