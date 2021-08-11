@@ -4,6 +4,7 @@ import {Nav,  Navbar, Container} from 'react-bootstrap'
 import logo from '../images/Logo.png'
 import '../styles/navbar.css'
 import { useStaticQuery, graphql } from "gatsby"
+import Scroll from 'react-scroll';
 
 const NavbarComp = () =>{
 
@@ -34,7 +35,11 @@ return(
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
     <Nav className="mr-auto nav-components">    
-    {names.map(item => (<Nav.Link className="nav-element" href={`#${item.toLowerCase()}`}>{item}</Nav.Link>))}
+    {names.map(item => (<Nav.Link className="nav-element" onSelect={() => Scroll.scrollTo(`#${item.toLowerCase()}`, {
+    smooth: true,
+    offset: -70,
+    duration: 500,
+})} href={`#${item.toLowerCase()}`}>{item}</Nav.Link>))}
     </Nav>
   </Navbar.Collapse>
     </Container>
