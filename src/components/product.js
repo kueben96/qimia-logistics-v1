@@ -31,8 +31,8 @@ const listItems = points.map((point)=>
 
     return (
 
-        <Container fluid={true} id="products">
-            <section id="products" >
+        <Container fluid={true} id="product">
+            <section id="product" >
                 <Container>
                     <div className="heading">
                         <h1 className="text-orange">{productsData.headline}</h1>
