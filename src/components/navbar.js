@@ -4,7 +4,7 @@ import {Nav,  Navbar, Container} from 'react-bootstrap'
 import logo from '../images/Logo.png'
 import '../styles/navbar.css'
 import { useStaticQuery, graphql } from "gatsby"
-import Scroll from 'react-scroll';
+
 
 const NavbarComp = () =>{
 

@@ -32,12 +32,15 @@ query contactSection{
                     </div>
                     <Row>
                         <Col sm={6}>
-                            <div className="wrap">
+                        <div className="heading-wrap">
+                        <div className="wrap">
                                 <h1 className="text-orange  h1-xx-large">{contactData.headline_1}</h1>
                                 <h1 className="text-orange h1-xx-large">{contactData.headline_2}</h1>
                                 <span className="text-white">{contactData.description_1} </span>
                                 <span className="text-white">{contactData.description_2} </span>
                             </div>
+                        </div>
+                           
                         </Col>
                         <Col sm={6}>
                             <div className="contact-form">

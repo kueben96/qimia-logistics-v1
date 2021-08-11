@@ -32,7 +32,7 @@ console.log(data.sectionsJson.img.absolutePath)
       <Container>
         <Row id="home">
           <Col sm={4}>
-          <div className="heading-home">
+          <div className="heading-wrap">
           <div className="wrapper">
               <h1 className="text-orange h1-xx-large">{data.sectionsJson.headline}</h1>
               <p> {data.sectionsJson.description}</p>

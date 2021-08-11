@@ -39,15 +39,22 @@ const listItems = points.map((point)=>
                         <span className="text-white">{productsData.description}</span>
                     </div>
                     <Row>
+
                         <Col sm={8} md={6}>
-                            <GatsbyImage image={getImage(productsData.img)} alt= {productsData.headline}/>
+                        <div className="heading-wrap">
+                        <GatsbyImage image={getImage(productsData.img)} alt= {productsData.headline}/>
+                        </div>
+                            
                         </Col>
                         <Col sm={4} md={6}>
+                        <div className="heading-wrap">
                         <div className="bullet">
                         <ul>
                         {listItems}
                         </ul>
                         </div>
+                        </div>
+                        
                         </Col>
                     </Row>
                 </Container>

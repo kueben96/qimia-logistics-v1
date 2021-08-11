@@ -38,10 +38,13 @@ query featuresSection{
            <Row >
            {features.map(feature => (
             <Col sm={{ span: 12, order: 1 }} md={{ span: 4, order: 1 }} lg={{ span: 4, order: 1 }}>
+                      
                         <div className="wrap-thumb">
                             <GatsbyImage image={getImage(feature.img)} alt={feature.feature} />
                             <span>{feature.feature}</span>
                         </div>
+                   
+                        
                     </Col>
            ))}
                 </Row>
