@@ -34,7 +34,7 @@ return(
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
     <Nav className="mr-auto nav-components">    
-    {names.map(item => (<Nav.Link className="nav-element" href="#home">{item}</Nav.Link>))}
+    {names.map(item => (<Nav.Link className="nav-element" href={`#${item.toLowerCase()}`}>{item}</Nav.Link>))}
     </Nav>
   </Navbar.Collapse>
     </Container>

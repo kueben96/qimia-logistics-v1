@@ -16,15 +16,21 @@
     border-radius: 20px;
 }
 
- .nav-element.active, .nav-element:hover{
-    background-color: var(--orange);
-    color: var(--dark-grey)!important;
-    
-  }
 
-  .navbar-light .navbar-toggler{
-      color: var(--orange)!important;
-      
+@media screen and (min-width: 991px) {
+
+    .nav-element.active, .nav-element:hover{
+        background-color: var(--orange);
+        color: var(--dark-grey)!important;
+        
+      }
+    
+      .navbar-light .navbar-toggler{
+          color: var(--orange)!important;
+          
+      }
+
   }
+ 
  
   

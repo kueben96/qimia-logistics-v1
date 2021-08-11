@@ -58,6 +58,12 @@ section {
     font-size: 5em;
 }
 
+
+@media screen and (max-width: 769px) {
+    .h1-xx-large {
+        font-size: 3em;
+    }
+  }
 .wrap{
     display: flex;
     flex-direction: column;
@@ -65,3 +71,4 @@ section {
     align-items: flex-start;
     margin-bottom: 32px;
 }
+

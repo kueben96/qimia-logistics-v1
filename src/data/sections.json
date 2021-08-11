@@ -65,6 +65,11 @@
         ]
     },
     {
-        "name": "Contact"
+        "name": "Contact",
+        "headline_1": "So Simple,",
+        "headline_2": "So Powerful!",
+        "description_1": "Got a question? We are here to help!",
+        "description_2": "Fill up the form to get in touch with us on your enquiries",
+        "headline_form": "Contact Us" 
     }
 ]

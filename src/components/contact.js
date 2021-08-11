@@ -1,35 +1,47 @@
 import * as React from "react"
-import { Row, Col, Image, Container } from 'react-bootstrap'
+import { Row, Col, Container } from 'react-bootstrap'
 import '../styles/contact.css'
-import ReactDOM from "react-dom";
+import { useStaticQuery, graphql } from "gatsby"
 import { Button } from "reakit/Button";
 
 
 
 
 const Contact = () => {
+
+    const data = useStaticQuery(graphql`
+query contactSection{
+    sectionsJson(name: {eq: "Contact"}) {
+        name
+        headline_1
+        headline_2
+        description_1
+        description_2
+        headline_form
+      }
+  }
+  `)
+    const contactData = data.sectionsJson
+
     return (
         <Container fluid={true} id="contact">
             <section id="contact" >
                 <Container>
                     <div className="heading">
-                        <h1 className="text-orange">Contact</h1>
+                        <h1 className="text-orange">{contactData.name}</h1>
                     </div>
                     <Row>
                         <Col sm={6}>
                             <div className="wrap">
-                                <h1 className="text-orange">So Simple,<br />So Powerful! </h1>
-                                <div>
-                                    <span className="text-white">Got a question? We are here to help!<br /></span>
-                                    <span className="text-white">Fill up the form to get in touch with us on your enquiries</span>
-                                </div>
-
+                                <h1 className="text-orange  h1-xx-large">{contactData.headline_1}</h1>
+                                <h1 className="text-orange h1-xx-large">{contactData.headline_2}</h1>
+                                <span className="text-white">{contactData.description_1} </span>
+                                <span className="text-white">{contactData.description_2} </span>
                             </div>
-
                         </Col>
                         <Col sm={6}>
                             <div className="contact-form">
-                                <h2 className="text-orange">CONTACT US</h2>
+                                <h2 className="text-orange">{contactData.headline_form.toUpperCase()}</h2>
                                 <form className="form-inputs" method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
                                     <input type="hidden" name="bot-field" />
                                     <input type="hidden" name="form-name" value="contact" />
@@ -38,7 +50,7 @@ const Contact = () => {
                                     <textarea placeholder="Describe your project" className="form-input" type="text" name="message" />
                                     <Button type="submit" className="btn-yellow">Send</Button>
                                 </form>
-                                
+
                             </div>
 
                         </Col>
