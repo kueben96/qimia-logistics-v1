@@ -11,14 +11,21 @@
 .hide {
     overflow: hidden;
 }
+
+
 #path{
     position: absolute;
     top:5%;
     left: -10%;
     width: 120%;
     z-index: -1;
-    
 }
+
+@media screen and (max-width: 770px) {
+    #path{
+      display: none;
+    }
+  }
 
 .iframe-wrapper{
     position: relative;
@@ -39,7 +46,7 @@
    height: 100%;
    display: flex;
     flex-direction: column;
-    justify-content: center;
+     justify-content: center;
 }
 
 .wrapper{

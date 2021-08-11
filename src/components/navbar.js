@@ -35,11 +35,7 @@ return(
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
     <Nav className="mr-auto nav-components">    
-    {names.map(item => (<Nav.Link className="nav-element" onSelect={() => Scroll.scrollTo(`#${item.toLowerCase()}`, {
-    smooth: true,
-    offset: -70,
-    duration: 500,
-})} href={`#${item.toLowerCase()}`}>{item}</Nav.Link>))}
+    {names.map(item => (<Nav.Link activeClass='active' spy={true} smooth={true} offset={-70} duration={500} className="nav-element"  href={`#${item.toLowerCase()}`}>{item}</Nav.Link>))}
     </Nav>
   </Navbar.Collapse>
     </Container>
@@ -48,3 +44,10 @@ return(
 )
 }
 export default NavbarComp
+
+
+// onSelect={() => Scroll.scrollTo(`#${item.toLowerCase()}`, {
+//   smooth: true,
+//   offset: -70,
+//   duration: 500,
+// })}
