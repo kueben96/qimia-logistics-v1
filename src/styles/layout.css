@@ -91,3 +91,13 @@ section {
     margin-bottom: 32px;
 }
 
+.wrap-thumb {
+    padding: 70px;
+}
+
+@media screen and (max-width: 770px) {
+    
+    .wrap-thumb {
+       padding: 30px;
+    }
+  }
